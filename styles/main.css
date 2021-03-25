@@ -68,10 +68,10 @@ hr {
 }
 
 header .profileHeader p {
-	font-family: sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: rgba(146, 146, 146, 1);
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 1.8;
 	overflow-y: auto;
 }
@@ -98,7 +98,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 
 header .socials {
 	background-color: #2d3152;
-	font-family: didot-medium;
+	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	font-weight: 100;
 	color: rgba(208, 207, 207, 1);
@@ -112,7 +112,8 @@ header .socials p {
 
 header .socials span {
 	color: rgba(146, 146, 146, 1);
-	font-family: sans-serif;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
 }
 
 /* Main Content sections */
@@ -131,7 +132,7 @@ header .socials span {
 }
 .section1 .sectionTitle,
 .section2 .sectionTitle {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Lato", sans-serif;
 	color: rgb(212, 212, 212);
 	font-size: 18px;
 	font-weight: 700;
@@ -151,22 +152,22 @@ header .socials span {
 }
 
 .section2 .sectionContentTitle {
-	font-family: sans-serif;
+	font-family: "Lato", sans-serif;
 	color: rgb(212, 212, 212);
 	font-size: 22px;
 	font-weight: 700;
 }
 .section2 .sectionContentSubTitle {
-	font-family: sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: rgba(68, 67, 67, 1);
 	font-size: 14px;
 	font-weight: 400;
 }
 .section2 .sectionContent {
-	font-family: sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: rgba(146, 146, 146, 1);
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 1.8;
 }
 .sectionImage {
@@ -202,7 +203,7 @@ header .socials span {
 }
 
 .externalResourcesNav .externalResources a {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: rgba(255, 255, 255, 1);
 	font-size: 14px;
 	font-weight: 400;
@@ -339,7 +340,7 @@ footer .footerNote span {
 	}
 	header .profileLogo .logoPlaceholder {
 		display: inline-block;
-		font-family: "Montserrat", sans-serif;
+		font-family: "Lato", sans-serif;
 	}
 	header .profilePhoto {
 		float: left;
