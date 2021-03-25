@@ -128,8 +128,8 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 }
 .section2 .sectionContentTitle {
 	font-family: sans-serif;
-	color: rgba(146, 146, 146, 1);
-	font-size: 18px;
+	color: rgb(119, 119, 119);
+	font-size: 22px;
 	font-weight: 700;
 }
 .section2 .sectionContentSubTitle {
@@ -151,6 +151,15 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	margin-right: auto;
 	display: block;
 }
+
+.sectionImage img {
+	max-width: 100%;
+}
+
+.sectionImage p {
+	font-style: italic;
+}
+
 .mainContent {
 	display: block;
 }
