@@ -40,7 +40,7 @@ header .profilePhoto {
 }
 
 header .profilePhoto img {
-	padding-top: 15%;
+	margin-top: 25%;
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
@@ -70,7 +70,7 @@ hr {
 header .profileHeader p {
 	font-family: "Roboto", sans-serif;
 	color: rgba(146, 146, 146, 1);
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 300;
 	line-height: 1.8;
 	overflow-y: auto;
@@ -99,7 +99,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 header .socials {
 	background-color: #2d3152;
 	font-family: "Roboto", sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 100;
 	color: rgba(208, 207, 207, 1);
 	padding-top: 15px;
@@ -160,13 +160,13 @@ header .socials span {
 .section2 .sectionContentSubTitle {
 	font-family: "Roboto", sans-serif;
 	color: rgba(68, 67, 67, 1);
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 }
 .section2 .sectionContent {
 	font-family: "Roboto", sans-serif;
 	color: rgba(146, 146, 146, 1);
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 300;
 	line-height: 1.8;
 }
@@ -205,7 +205,7 @@ header .socials span {
 .externalResourcesNav .externalResources a {
 	font-family: "Roboto", sans-serif;
 	color: rgba(255, 255, 255, 1);
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 18px;
 }
@@ -226,7 +226,7 @@ a {
 /* Footer */
 footer .footerDisclaimer {
 	font-family: sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 18px;
 	color: rgba(104, 103, 103, 1);
 	font-weight: 700;
@@ -241,7 +241,7 @@ footer .footerContact {
 
 footer .footerNote {
 	font-family: sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 18px;
 	text-decoration: none;
 	display: inline-block;
