@@ -26,7 +26,7 @@ header .profileLogo .logoPlaceholder {
 header .logoPlaceholder span {
 	width: 80px;
 	height: 22px;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Lato", sans-serif;
 	color: rgba(255, 255, 255, 1);
 	font-size: 30px;
 	font-weight: 700;
@@ -47,7 +47,7 @@ header .profilePhoto img {
 }
 
 header .profileHeader h1 {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Lato", sans-serif;
 	color: #03a1ec;
 	font-size: 30px;
 	font-weight: 700;
@@ -55,10 +55,10 @@ header .profileHeader h1 {
 }
 
 header .profileHeader h3 {
-	font-family: sans-serif;
+	font-family: "Lato", sans-serif;
 	color: rgba(146, 146, 146, 1);
-	font-size: 16px;
-	font-weight: 700;
+	font-size: 18px;
+	font-weight: 400;
 	line-height: 24px;
 }
 
@@ -117,7 +117,7 @@ header .socials span {
 
 /* Main Content sections */
 .mainContent .header {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Lato", sans-serif;
 	color: #03a1ec;
 	font-size: 28px;
 	font-weight: 700;
