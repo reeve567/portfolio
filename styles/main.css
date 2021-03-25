@@ -79,8 +79,6 @@ header .profileHeader p {
 header .socialNetworkNavBar {
 	text-align: center;
 	display: block;
-	margin-top: 60px;
-	margin-bottom: 60px;
 	clear: both;
 }
 
@@ -98,6 +96,25 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	opacity: 0.5;
 }
 
+header .socials {
+	background-color: #32375c;
+	font-family: ProximaNova;
+	font-size: 14px;
+	font-weight: 100;
+	color: rgba(208, 207, 207, 1);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+header .socials p {
+	margin-top: 0;
+}
+
+header .socials span {
+	color: rgba(146, 146, 146, 1);
+	font-family: sans-serif;
+}
+
 /* Main Content sections */
 .mainContent .header {
 	font-family: "Montserrat", sans-serif;
@@ -106,6 +123,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
+	margin-top: 10%;
 }
 
 .mainContent .section1 {
@@ -131,16 +149,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	height: 1px;
 	padding: 0px;
 }
-.mainContent .section1 .section1Content {
-	font-family: ProximaNova;
-	font-size: 14px;
-	font-weight: 100;
-	color: rgba(208, 207, 207, 1);
-}
-.mainContent .section1 .section1Content span {
-	color: rgba(146, 146, 146, 1);
-	font-family: sans-serif;
-}
+
 .section2 .sectionContentTitle {
 	font-family: sans-serif;
 	color: rgb(119, 119, 119);
