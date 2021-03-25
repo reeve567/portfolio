@@ -48,7 +48,7 @@ header .profilePhoto img {
 
 header .profileHeader h1 {
 	font-family: "Montserrat", sans-serif;
-	color: rgba(146, 146, 146, 1);
+	color: #03a1ec;
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 24px;
@@ -118,7 +118,7 @@ header .socials span {
 /* Main Content sections */
 .mainContent .header {
 	font-family: "Montserrat", sans-serif;
-	color: rgba(146, 146, 146, 1);
+	color: #03a1ec;
 	font-size: 28px;
 	font-weight: 700;
 	text-transform: uppercase;
