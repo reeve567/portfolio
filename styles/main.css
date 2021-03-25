@@ -132,7 +132,7 @@ header .socials span {
 .section1 .sectionTitle,
 .section2 .sectionTitle {
 	font-family: "Montserrat", sans-serif;
-	color: rgba(146, 146, 146, 1);
+	color: rgb(212, 212, 212);
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -152,7 +152,7 @@ header .socials span {
 
 .section2 .sectionContentTitle {
 	font-family: sans-serif;
-	color: rgb(119, 119, 119);
+	color: rgb(212, 212, 212);
 	font-size: 22px;
 	font-weight: 700;
 }
