@@ -8,6 +8,7 @@ body {
 	max-width: 1080px;
 	padding-left: 2.275%;
 	padding-right: 2.275%;
+	background-color: #161828;
 }
 /* Header */
 header {
@@ -193,7 +194,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 }
 
 a {
-	color: rgba(104, 103, 103, 1);
+	color: #03a1ec;
 	font-weight: 700;
 	text-decoration: none;
 }
