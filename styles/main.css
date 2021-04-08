@@ -76,6 +76,35 @@ header .profileHeader p {
 	overflow-y: auto;
 }
 
+.tech {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.tech h2 {
+	color: #03a1ec;
+}
+
+.tech ul {
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+	text-align: center;
+	justify-content: center;
+	flex-flow: wrap;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.tech ul li {
+	font-family: "Roboto", sans-serif;
+	margin: 5px;
+	padding: 4px;
+	border: 1px solid rgba(68, 67, 67, 1);
+	border-radius: 0.4em;
+}
+
 header .socialNetworkNavBar {
 	text-align: center;
 	display: block;
