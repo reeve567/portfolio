@@ -2,511 +2,562 @@
 /* Global Styles */
 
 body {
-	margin-left: auto;
-	margin-right: auto;
-	width: 92%;
-	max-width: 1080px;
-	padding-left: 2.275%;
-	padding-right: 2.275%;
-	background-color: #161828;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    max-width: 1080px;
+    padding-left: 2.275%;
+    padding-right: 2.275%;
+    background-color: #161828;
 }
 
 /* Header */
 header {
-	text-align: center;
-	display: block;
+    text-align: center;
+    display: block;
+}
+
+h1, h2, h3 {
+    font-family: "Lato", sans-serif;
 }
 
 header .profileLogo .logoPlaceholder {
-	background-color: rgba(208, 207, 207, 1);
-	width: 187px;
-	text-align: center;
+    background-color: rgba(208, 207, 207, 1);
+    width: 187px;
+    text-align: center;
 }
 
 header .logoPlaceholder span {
-	width: 80px;
-	height: 22px;
-	font-family: "Lato", sans-serif;
-	color: rgba(255, 255, 255, 1);
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 53px;
+    width: 80px;
+    height: 22px;
+    font-family: "Lato", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 53px;
 }
 
 header .profilePhoto {
-	max-width: 259px;
-	max-height: 259px;
-	clear: both;
+    max-width: 259px;
+    max-height: 259px;
+    clear: both;
 }
 
 header .profilePhoto img {
-	margin-top: 25%;
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
+    margin-top: 25%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 header .profileHeader h1 {
-	font-family: "Lato", sans-serif;
-	color: #03a1ec;
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 24px;
+    color: #03a1ec;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
 }
 
 header .profileHeader h3 {
-	font-family: "Lato", sans-serif;
-	color: rgba(146, 146, 146, 1);
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 24px;
+    color: rgba(146, 146, 146, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 hr {
-	background-color: rgba(208, 207, 207, 1);
-	height: 1px;
+    background-color: rgba(208, 207, 207, 1);
+    height: 1px;
 }
 
 header .profileHeader p {
-	font-family: "Roboto", sans-serif;
-	color: rgba(146, 146, 146, 1);
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 1.8;
-	overflow-y: auto;
+    font-family: "Roboto", sans-serif;
+    color: rgba(146, 146, 146, 1);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    overflow-y: auto;
 }
 
-.tech {
-	margin-top: 2em;
-	margin-bottom: 2em;
+.sectional {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
-.tech h2 {
-	color: #03a1ec;
+.sectional h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
 }
 
-.tech ul {
-	text-decoration: none;
-	list-style: none;
-	display: flex;
-	padding-left: 0;
-	text-align: center;
-	justify-content: center;
-	flex-flow: wrap;
-	margin-left: 5%;
-	margin-right: 5%;
+.sectional h1, h2 {
+    color: #03a1ec;
 }
 
-.tech ul li {
-	font-family: "Roboto", sans-serif;
-	margin: 5px;
-	padding: 4px;
-	border: 1px solid rgba(68, 67, 67, 1);
-	border-radius: 0.4em;
-	color: rgba(146, 146, 146, 1);
+.sectional ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    text-align: center;
+    justify-content: center;
+    flex-flow: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sectional ul li {
+    font-family: "Roboto", sans-serif;
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid rgba(68, 67, 67, 1);
+    border-radius: 0.4em;
+    color: rgba(146, 146, 146, 1);
 }
 
 header .socialNetworkNavBar {
-	text-align: center;
-	display: block;
-	clear: both;
+    text-align: center;
+    display: block;
+    clear: both;
 }
 
 header .socialNetworkNavBar .socialNetworkNav {
-	border-radius: 50%;
-	cursor: pointer;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 header .socialNetworkNavBar .socialNetworkNav img {
-	width: 100%;
-	max-width: 74px;
+    width: 100%;
+    max-width: 74px;
 }
 
 header .socialNetworkNavBar .socialNetworkNav img:hover {
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
 header .socials {
-	background-color: #2d3152;
-	font-family: "Roboto", sans-serif;
-	font-size: 16px;
-	font-weight: 100;
-	color: rgba(208, 207, 207, 1);
-	padding-top: 15px;
-	padding-bottom: 15px;
+    background-color: #2d3152;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: rgba(208, 207, 207, 1);
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 header .socials p {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 header .socials span {
-	color: rgba(146, 146, 146, 1);
-	font-family: "Lato", sans-serif;
-	font-weight: 400;
+    color: rgba(146, 146, 146, 1);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
 }
 
 /* Main Content sections */
 .mainContent .header {
-	font-family: "Lato", sans-serif;
-	color: #03a1ec;
-	font-size: 28px;
-	font-weight: 700;
-	text-transform: uppercase;
-	text-align: center;
-	margin-top: 10%;
+    font-family: "Lato", sans-serif;
+    color: #03a1ec;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10%;
 }
 
 .mainContent .section1 {
-	display: block;
+    display: block;
 }
+
 .section1 .sectionTitle,
 .section2 .sectionTitle {
-	font-family: "Lato", sans-serif;
-	color: rgb(212, 212, 212);
-	font-size: 18px;
-	font-weight: 700;
-	text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    color: rgb(212, 212, 212);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
+
 .section1 .sectionTitleRule,
 .section2 .sectionTitleRule {
-	margin: 0 3% 0 0;
-	float: left;
-	clear: both;
+    margin: 0 3% 0 0;
+    float: left;
+    clear: both;
 }
+
 .section1 .sectionTitleRule2,
 .section2 .sectionTitleRule2 {
-	background-color: rgba(208, 207, 207, 1);
-	height: 1px;
-	padding: 0px;
+    background-color: rgba(208, 207, 207, 1);
+    height: 1px;
+    padding: 0;
 }
 
 .section2 .sectionContentTitle {
-	font-family: "Lato", sans-serif;
-	color: rgb(212, 212, 212);
-	font-size: 22px;
-	font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: rgb(212, 212, 212);
+    font-size: 22px;
+    font-weight: 700;
 }
-.section2 .sectionContentSubTitle {
-	font-family: "Roboto", sans-serif;
-	color: rgba(68, 67, 67, 1);
-	font-size: 16px;
-	font-weight: 400;
+
+.sectionContentSubTitle {
+    font-family: "Roboto", sans-serif;
+    color: rgba(68, 67, 67, 1);
+    font-size: 16px;
+    font-weight: 400;
 }
+
 .section2 .sectionContent {
-	font-family: "Roboto", sans-serif;
-	color: rgba(146, 146, 146, 1);
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 1.8;
+    font-family: "Roboto", sans-serif;
+    color: rgba(146, 146, 146, 1);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
 }
+
 .sectionImage {
-	max-width: 85%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .sectionImage img {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 .sectionImage p {
-	font-style: italic;
+    font-style: italic;
 }
 
 .mainContent {
-	display: block;
+    display: block;
 }
 
 .mainContent .externalResourcesNav .externalResources {
-	background-color: rgba(208, 207, 207, 1);
-	display: inline-block;
-	text-align: center;
-	margin-top: 0px;
-	padding-top: 3%;
-	cursor: pointer;
+    background-color: rgba(208, 207, 207, 1);
+    display: inline-block;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 3%;
+    cursor: pointer;
 }
 
 .mainContent .externalResourcesNav .externalResources:hover {
-	background-color: rgba(153, 153, 153, 1);
+    background-color: rgba(153, 153, 153, 1);
 }
 
 .externalResourcesNav .externalResources a {
-	font-family: "Roboto", sans-serif;
-	color: rgba(255, 255, 255, 1);
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 18px;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
 }
 
 .stretch {
-	content: "";
-	display: inline-block;
-	margin-left: 2%;
-	margin-right: 2%;
+    content: "";
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 a {
-	color: #03a1ec;
-	font-weight: 700;
-	text-decoration: none;
+    color: #03a1ec;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 /* Footer */
 footer .footerDisclaimer {
-	font-family: sans-serif;
-	font-size: 16px;
-	line-height: 18px;
-	color: rgba(104, 103, 103, 1);
-	font-weight: 700;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(104, 103, 103, 1);
+    font-weight: 700;
 }
+
 footer .footerDisclaimer span {
-	color: rgba(181, 178, 178, 1);
-	font-weight: 400;
+    color: rgba(181, 178, 178, 1);
+    font-weight: 400;
 }
+
 footer .footerContact {
-	display: inline-block;
+    display: inline-block;
 }
 
 footer .footerNote {
-	font-family: sans-serif;
-	font-size: 16px;
-	line-height: 18px;
-	text-decoration: none;
-	display: inline-block;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    display: inline-block;
 }
+
 footer .footerNote span {
-	color: rgba(181, 178, 178, 1);
-	font-weight: 400;
+    color: rgba(181, 178, 178, 1);
+    font-weight: 400;
 }
 
 /* Media query for Mobile devices*/
 @media only screen and (min-width: 285px) and (max-width: 480px) {
-	/* Header */
-	header {
-		width: 100%;
-		float: none;
-	}
-	header .profileLogo .logoPlaceholder {
-		display: inline-block;
-	}
-	header .profilePhoto {
-		display: inline-block;
-	}
-	header .profileHeader {
-		text-align: center;
-		margin-top: 10%;
-	}
-	header .profileHeader p {
-		text-align: justify;
-	}
-	header .socialNetworkNavBar {
-		text-align: center;
-		display: block;
-		margin-top: 60px;
-		clear: both;
-		margin-bottom: 15%;
-	}
-	header .socialNetworkNavBar .socialNetworkNav {
-		width: 60px;
-		height: 60px;
-		display: inline-block;
-		margin-right: 23px;
-	}
-	/* Main content sections */
-	.mainContent .section1 {
-		text-align: center;
-		margin-bottom: 10%;
-	}
-	.section1 .section1Title,
-	.section2 .section1Title {
-		text-align: center;
-	}
-	.section1 .sectionTitleRule,
-	.section2 .sectionTitleRule {
-		width: 100%;
-	}
-	.section1 .sectionTitleRule2,
-	.section2 .sectionTitleRule2 {
-		display: none;
-	}
-	.mainContent .section1 .section1Content {
-		display: inline-block;
-		text-align: left;
-		font-family: sans-serif;
-		text-align: justify;
-	}
-	.mainContent .section2 {
-		display: block;
-		text-align: center;
-	}
-	.section2 .section2Content {
-		margin-top: 10%;
-		text-align: justify;
-		margin-bottom: 10%;
-	}
-	.mainContent .externalResourcesNav {
-		margin-bottom: 10%;
-	}
-	.mainContent .externalResourcesNav .externalResources {
-		width: 100%;
-		height: 35px;
-	}
-	/* Footer */
-	footer {
-		display: block;
-		text-align: center;
-		font-family: sans-serif;
-	}
+    /* Header */
+    header {
+        width: 100%;
+        float: none;
+    }
+
+    header .profileLogo .logoPlaceholder {
+        display: inline-block;
+    }
+
+    header .profilePhoto {
+        display: inline-block;
+    }
+
+    header .profileHeader {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    header .profileHeader p {
+        text-align: justify;
+    }
+
+    header .socialNetworkNavBar {
+        text-align: center;
+        display: block;
+        margin-top: 60px;
+        clear: both;
+        margin-bottom: 15%;
+    }
+
+    header .socialNetworkNavBar .socialNetworkNav {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        margin-right: 23px;
+    }
+
+    /* Main content sections */
+    .mainContent .section1 {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .section1 .section1Title,
+    .section2 .section1Title {
+        text-align: center;
+    }
+
+    .section1 .sectionTitleRule,
+    .section2 .sectionTitleRule {
+        width: 100%;
+    }
+
+    .section1 .sectionTitleRule2,
+    .section2 .sectionTitleRule2 {
+        display: none;
+    }
+
+    .mainContent .section1 .section1Content {
+        display: inline-block;
+        font-family: sans-serif;
+    }
+
+    .mainContent .section2 {
+        display: block;
+        text-align: center;
+    }
+
+    .section2 .section2Content {
+        margin-top: 10%;
+        text-align: justify;
+        margin-bottom: 10%;
+    }
+
+    .mainContent .externalResourcesNav {
+        margin-bottom: 10%;
+    }
+
+    .mainContent .externalResourcesNav .externalResources {
+        width: 100%;
+        height: 35px;
+    }
+
+    /* Footer */
+    footer {
+        display: block;
+        text-align: center;
+        font-family: sans-serif;
+    }
 }
 
 /* Media Query for Tablets */
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
-	/* Header */
-	header {
-		width: 100%;
-		float: none;
-	}
-	header .profileLogo .logoPlaceholder {
-		display: inline-block;
-		font-family: "Lato", sans-serif;
-	}
-	header .profilePhoto {
-		float: left;
-		clear: both;
-		margin-right: 3%;
-		margin-top: 5%;
-	}
-	header .profileHeader {
-		text-align: left;
-		margin-top: 7%;
-	}
-	header .socialNetworkNavBar .socialNetworkNav {
-		width: 74px;
-		height: 74px;
-		display: inline-block;
-		margin-right: 23px;
-	}
-	/* Main content and sections */
-	.section1 .section1Title,
-	.section2 .section1Title {
-		text-align: center;
-	}
-	.section1 .sectionTitleRule,
-	.section2 .sectionTitleRule {
-		width: 100%;
-	}
-	.section1 .sectionTitleRule2,
-	.section2 .sectionTitleRule2 {
-		display: none;
-	}
-	.mainContent .section1 .section1Content {
-		display: block;
-		margin: 0% 0% 0% 20%;
-		font-family: sans-serif;
-		margin-top: 5%;
-		margin-bottom: 5%;
-	}
-	.mainContent .section2 {
-		clear: both;
-	}
-	.section2 .section2Content {
-		padding: 0px;
-		margin-left: 20%;
-		font-family: sans-serif;
-		margin-top: 5%;
-		margin-bottom: 5%;
-	}
-	.mainContent .externalResourcesNav {
-		margin-left: 20%;
-		margin-top: 40px;
-		margin-bottom: 40px;
-		text-align: center;
-		padding-top: 0px;
-		clear: both;
-	}
-	.mainContent .externalResourcesNav .externalResources {
-		width: 199px;
-		height: 48px;
-		margin-top: 5%;
-	}
-	/* Footer */
-	footer .footerDisclaimer {
-		float: left;
-		margin-left: 3%;
-		font-family: sans-serif;
-	}
-	footer .footerNote {
-		float: right;
-		margin-right: 3%;
-		font-family: sans-serif;
-	}
+    /* Header */
+    header {
+        width: 100%;
+        float: none;
+    }
+
+    header .profileLogo .logoPlaceholder {
+        display: inline-block;
+        font-family: "Lato", sans-serif;
+    }
+
+    header .profilePhoto {
+        float: left;
+        clear: both;
+        margin-right: 3%;
+        margin-top: 5%;
+    }
+
+    header .profileHeader {
+        text-align: left;
+        margin-top: 7%;
+    }
+
+    header .socialNetworkNavBar .socialNetworkNav {
+        width: 74px;
+        height: 74px;
+        display: inline-block;
+        margin-right: 23px;
+    }
+
+    /* Main content and sections */
+    .section1 .section1Title,
+    .section2 .section1Title {
+        text-align: center;
+    }
+
+    .section1 .sectionTitleRule,
+    .section2 .sectionTitleRule {
+        width: 100%;
+    }
+
+    .section1 .sectionTitleRule2,
+    .section2 .sectionTitleRule2 {
+        display: none;
+    }
+
+    .mainContent .section1 .section1Content {
+        display: block;
+        font-family: sans-serif;
+        margin: 5% 0 5% 20%;
+    }
+
+    .mainContent .section2 {
+        clear: both;
+    }
+
+    .section2 .section2Content {
+        padding: 0;
+        margin-left: 20%;
+        font-family: sans-serif;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .mainContent .externalResourcesNav {
+        margin-left: 20%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+        padding-top: 0;
+        clear: both;
+    }
+
+    .mainContent .externalResourcesNav .externalResources {
+        width: 199px;
+        height: 48px;
+        margin-top: 5%;
+    }
+
+    /* Footer */
+    footer .footerDisclaimer {
+        float: left;
+        margin-left: 3%;
+        font-family: sans-serif;
+    }
+
+    footer .footerNote {
+        float: right;
+        margin-right: 3%;
+        font-family: sans-serif;
+    }
 }
 
 /* Desktops and laptops  */
 @media only screen and (min-width: 1025px) {
-	/* Header */
-	header .profileLogo .logoPlaceholder {
-		float: left;
-		margin-bottom: 50px;
-	}
-	header .profilePhoto {
-		float: left;
-		clear: both;
-		margin-right: 3%;
-	}
-	header .profileHeader {
-		text-align: left;
-		padding-top: 10%;
-	}
-	header .socialNetworkNavBar .socialNetworkNav {
-		width: 74px;
-		height: 74px;
-		display: inline-block;
-		margin-right: 23px;
-	}
-	/* Main content sections */
-	.section1 .sectionTitleRule,
-	.section2 .sectionTitleRule {
-		width: 22.5%;
-	}
-	.mainContent .section1 .section1Content {
-		display: block;
-		margin-top: 0%;
-		margin-right: 0%;
-		margin-left: 26%;
-		margin-bottom: 0%;
-		font-family: sans-serif;
-	}
-	.mainContent .section2 {
-		clear: both;
-	}
-	.section2 .section2Content {
-		padding: 0px;
-		margin-left: 26%;
-		font-family: sans-serif;
-	}
-	.mainContent .externalResourcesNav {
-		margin-top: 40px;
-		margin-bottom: 40px;
-		text-align: center;
-		padding-top: 0px;
-		clear: both;
-	}
-	.mainContent .externalResourcesNav .externalResources {
-		width: 199px;
-		height: 48px;
-	}
-	/* Footer */
-	footer .footerDisclaimer {
-		float: left;
-		margin-left: 3%;
-		font-family: sans-serif;
-	}
-	footer .footerNote {
-		float: right;
-		margin-right: 3%;
-		font-family: sans-serif;
-	}
+    /* Header */
+    header .profileLogo .logoPlaceholder {
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    header .profilePhoto {
+        float: left;
+        clear: both;
+        margin-right: 3%;
+    }
+
+    header .profileHeader {
+        text-align: left;
+        padding-top: 10%;
+    }
+
+    header .socialNetworkNavBar .socialNetworkNav {
+        width: 74px;
+        height: 74px;
+        display: inline-block;
+        margin-right: 23px;
+    }
+
+    /* Main content sections */
+    .section1 .sectionTitleRule,
+    .section2 .sectionTitleRule {
+        width: 22.5%;
+    }
+
+    .mainContent .section1 .section1Content {
+        display: block;
+        margin: 0 0 0 26%;
+        font-family: sans-serif;
+    }
+
+    .mainContent .section2 {
+        clear: both;
+    }
+
+    .section2 .section2Content {
+        padding: 0px;
+        margin-left: 26%;
+        font-family: sans-serif;
+    }
+
+    .mainContent .externalResourcesNav {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+        padding-top: 0px;
+        clear: both;
+    }
+
+    .mainContent .externalResourcesNav .externalResources {
+        width: 199px;
+        height: 48px;
+    }
+
+    /* Footer */
+    footer .footerDisclaimer {
+        float: left;
+        margin-left: 3%;
+        font-family: sans-serif;
+    }
+
+    footer .footerNote {
+        float: right;
+        margin-right: 3%;
+        font-family: sans-serif;
+    }
 }
