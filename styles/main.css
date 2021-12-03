@@ -17,8 +17,26 @@ header {
     display: block;
 }
 
-h1, h2, h3 {
+h1, h2, h3, li {
     font-family: "Lato", sans-serif;
+}
+
+header .navBar {
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 0;
+    text-align: center;
+    justify-content: center;
+    flex-flow: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header .navBar li {
+    padding-right: 2%;
 }
 
 header .profileLogo .logoPlaceholder {
@@ -212,6 +230,10 @@ header .socials span {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.8;
+}
+
+.section2 .sectionContent span {
+    font-style: italic;
 }
 
 .sectionImage {
